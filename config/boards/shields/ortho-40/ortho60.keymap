@@ -1,0 +1,14 @@
+    keymap {
+        compatible = "zmk,keymap";
+
+        default_layer { // Layer 0
+            display-name = "Base";
+// ----------------------------------------------
+// |     Z     |     M     |
+// |     A     |     B     |
+            bindings = <
+                &kp Z    &kp M
+                &kp A    &kp B
+            >;
+        };
+    };
