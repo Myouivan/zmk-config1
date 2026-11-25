@@ -1,6 +1,6 @@
 if SHIELD_ORTHO60
 
 config ZMK_KEYBOARD_NAME
-    default "ortho60
+    default "ortho60"
     
     endif
